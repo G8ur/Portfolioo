@@ -5,6 +5,7 @@ import { Suspense, useRef, useState } from "react";
 import  Fox  from "../models/Fox.jsx";
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert.jsx";
+import Footer from "../components/Footer.jsx";
 import Loader from "../components/Loader.jsx";
 const Contact = () => {
   const formRef = useRef();
@@ -72,6 +73,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <section className='relative flex lg:flex-row flex-col max-container'>
       {alert.show && <Alert {...alert} />}
 
@@ -166,7 +168,11 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
+     
     </section>
+    <Footer />
+    </>
+    
   );
 };
 

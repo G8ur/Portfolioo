@@ -6,6 +6,7 @@ import Sky from "../models/Sky";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
+import Footer from "../components/Footer";
 import { soundoff, soundon } from "../assets/icons";
 
 import  sakura from "../assets/sakura.mp3"
@@ -105,6 +106,7 @@ const Home = () => {
         className="w-10 h-10 cursor-pointer object-contain"
         onClick={()=> setIsPlayingMusic(!isPlayingMusic)}/>
       </div>
+    
     </section>
   );
 };
