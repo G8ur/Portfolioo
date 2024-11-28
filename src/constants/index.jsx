@@ -195,7 +195,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'www.linkedin.com/in/tanish-gaur',
     }
 ];
 
