@@ -245,4 +245,4 @@ export const projects = [
         description: 'Basic file encryption and decryption using fernet aes 128 bit Use it just for education purpose .',
         link: 'https://github.com/G8ur/File-encrypter-and-decrypter',
     }
-];
+]; // eslint-disable-line
