@@ -28,6 +28,9 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import aws from './aws.svg'
 import python from './python.svg'
+import spotify from './spotify.svg'
+import video from './video.svg'
+import food from './food.svg'
 
 export {
     css,
@@ -59,5 +62,8 @@ export {
     soundon,
     soundoff,
     aws,
-    python
+    python,
+    spotify,
+    video,
+    food
 }

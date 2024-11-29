@@ -25,7 +25,10 @@ import {
     tailwindcss,
     threads,
     typescript,
-    python
+    python,
+    spotify,
+    video,
+    food
 } from "../assets/icons";
 
 export const skills = [
@@ -203,43 +206,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Cryptocurrency',
+        description: 'Developed a web application that tracks and displays the information about all crytptocurrency using rapid api calls',
+        link: 'https://crypto-ggj2.onrender.com',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Full Stack Online Store',
+        description: 'Created a full-stack mern shopping web app with role based authentication and payment integration',
+        link: 'https://adminn-1.onrender.com',
     },
     {
-        iconUrl: car,
+        iconUrl:spotify,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Spotify  ',
+        description: 'Created a spotify clone that is responsvie and plays song using the api hardcoded in it',
+        link: 'https://samespace-assignment.onrender.com',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: video,  
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Video-call',
+        description: 'Built a video chatting app using javascript where the user can have multiple rooms which makes one room isolated from others.',
+        link: 'https://github.com/G8ur/Video-Chatt',
     },
     {
-        iconUrl: estate,
+        iconUrl: food,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Food Delivery App',
+        description: 'Developed a web application using MEAN stack for food delivery where user can access the live location of their order through leaflet and also has payment integration method in it',
+        link: 'https://github.com/G8ur/MEAN-ecommerce',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Python File Encrypter and Decrypter',
+        description: 'Basic file encryption and decryption using fernet aes 128 bit Use it just for education purpose .',
+        link: 'https://github.com/G8ur/File-encrypter-and-decrypter',
     }
 ];
