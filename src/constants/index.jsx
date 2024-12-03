@@ -188,7 +188,7 @@ export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: 'contact',
+        link: 'https://tanish-dev.netlify.app/contact',
     },
     {
         name: 'GitHub',
