@@ -185,11 +185,11 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: 'https://tanish-dev.netlify.app/contact',
-    },
+    // {
+    //     name: 'Contact',
+    //     iconUrl: contact,
+    //     link: 'https://tanish-dev.netlify.app/contact',
+    // },
     {
         name: 'GitHub',
         iconUrl: github,
